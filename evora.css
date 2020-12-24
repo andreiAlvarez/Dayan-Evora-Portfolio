@@ -1,1 +1,64 @@
+/* Style the navigation menu */
+body {
+    font-family: Lato, Courier, monospace;
+    background-color: #F5F5F5;
+    margin: 0;
+    padding: 0
+}
 
+.nav {
+    width: 100vw;
+    height: 30vw;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-content: flex-start;
+    flex-direction: row;
+}
+
+a.icon img {
+    display: block;
+    width: 24vw;
+    height: auto;
+    padding-top: 0vw;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.nav #myLinks {
+    display: none;
+    max-width: 80vw;
+    max-height: 50vw;
+}
+
+.logo-div img {
+    width: 6vw;
+    height: auto;
+}
+
+.logo-div {
+    margin-top: 8vw;
+    width: 40vw;
+    height: auto;
+}
+
+.link-nav {
+    margin-top: 5vw;
+    max-width: 60vw;
+    height: 30vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.link-nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 40px;
+    color: #208FB1;
+    padding-right: 5vw;
+}
+
+.link-nav a:hover {
+    color: #126D9B;
+    font-weight: bold;
+}
