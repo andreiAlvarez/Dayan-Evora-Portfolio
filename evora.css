@@ -17,6 +17,7 @@ body {
 }
 
 a.icon img {
+    margin-left: 2vw;
     display: block;
     width: 24vw;
     height: auto;
@@ -61,4 +62,47 @@ a.icon img {
 .link-nav a:hover {
     color: #126D9B;
     font-weight: bold;
+}
+
+.name-designer {
+    margin-top: 20vw;
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+#images-two{
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-name {
+    margin-left: 2vw;
+    width: 80vw;
+    height: auto;
+    display: flex;
+}
+
+.logo-designer {
+    width: 83vw;
+    height: auto;
+    margin-top: 10vw;
+}
+
+.container{
+    margin-top: 20vw;
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    width: 5vw;
+    height: auto;
+}
+
+.button:hover{
+    transform: scaleX(-1);
 }
