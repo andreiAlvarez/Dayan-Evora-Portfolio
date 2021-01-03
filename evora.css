@@ -98,11 +98,17 @@ a.icon img {
     justify-content: center;
 }
 
-.button{
+#button-rounded{
     width: 5vw;
     height: auto;
+    animation: roll 2s infinite;
 }
 
-.button:hover{
-    transform: scaleX(-1);
-}
+@keyframes roll {
+    0% {
+      opacity:0.8;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
