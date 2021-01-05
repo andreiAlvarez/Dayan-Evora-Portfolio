@@ -54,7 +54,7 @@ a.icon img {
 .link-nav a {
     text-transform: uppercase;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 5vw;
     color: #208FB1;
     padding-right: 5vw;
 }
@@ -108,6 +108,14 @@ a.icon img {
     flex-direction: column; 
 }
 
+.container-two-tx {
+    width: 80vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+}
+
 #button-rounded{
     width: 5vw;
     height: auto;
@@ -131,7 +139,69 @@ a.icon img {
   }
 
   .final-project {
-      width: 220.63px;
-      height: 295.53px;
+      width: 60vw;
+      height: auto;
       margin-bottom: 20vw;
+  }
+
+  .about-text {
+      width: 80vw;
+      height: auto;
+      justify-content: center;
+      flex-direction: column;
+      font-size: 4vw; 
+      margin-top: 4vh;
+      margin-left: 10vw;
+      margin-bottom: 10vh;
+  }
+
+  #home #about{
+      width: 100vw;
+      height: 100vh;
+  }
+
+  h5 {
+      line-height: 0vh;
+      font-size: 4.4vw;
+      font-weight: 500;
+      color: #126D9B;
+  }
+
+  h1 {
+      line-height: 0vh;
+      font-size: 9vw;
+      margin-top: 3vw;
+  }
+
+  p {
+      margin-top: 10vw;
+      line-height: 4vh;
+      font-size: 3.8vw;
+      font-weight: 349;
+  }
+
+  .designer {
+      width: 60vw;
+      height: auto;
+      transform: translate(20vw, -8vh);
+  }
+
+  .designer-picture {
+    display: flex;
+    align-items: center;
+  }
+
+  #contact-social-media {
+      background-color: #126D9B;
+      color: #F5F5F5;
+      width: 100vw;
+      height: 55vh;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      flex-direction: column;
+  }
+
+  .title-contact {
+      color: #F5F5F5;
   }
