@@ -202,6 +202,58 @@ a.icon img {
       flex-direction: column;
   }
 
+  .touch {
+      height: 25vh;
+  }
+
+  .social-media {
+      height: 30vh;
+  }
+
   .title-contact {
       color: #F5F5F5;
   }
+
+  #get-touch{
+      text-align: center;
+      margin-top: 12vh;
+      margin-bottom: 6vh;
+  }
+
+  #let-works {
+      text-align: center;
+  }
+
+  #feel-free {
+      text-align: center;
+      font-weight: 350;
+  }
+
+  .links-social-media {
+      margin-top: 6vh;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+  }
+
+  .medium {
+      width: 12vw;
+      height: auto;
+  }
+
+  .medium:hover {
+      width: 12.5vw;
+      height: auto;
+      background-color: yellow;
+  }
+
+  .medium-two {
+      width: 10.68vw;
+      height: auto;
+  }
+
+  .medium-three {
+      width: 12.5vw;
+      height: auto;
+  }
+
