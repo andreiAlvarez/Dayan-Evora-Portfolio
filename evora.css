@@ -54,7 +54,7 @@ a.icon img {
 .link-nav a {
     text-transform: uppercase;
     text-decoration: none;
-    font-size: 40px;
+    font-size: 20px;
     color: #208FB1;
     padding-right: 5vw;
 }
@@ -91,11 +91,21 @@ a.icon img {
 }
 
 .container{
-    margin-top: 20vw;
+    margin-top: 30vw;
+    margin-bottom: 30vw;
     width: 100vw;
     height: auto;
     display: flex;
     justify-content: center;
+}
+
+.container-two {
+    margin-top: 20vw;
+    width: 60vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
 }
 
 #button-rounded{
@@ -111,4 +121,17 @@ a.icon img {
     100% {
       opacity: 1;
     }
+  }
+
+  .case-studies {
+      width: 100vw;
+      height: auto;
+      display: flex;
+      justify-content: center;
+  }
+
+  .final-project {
+      width: 220.63px;
+      height: 295.53px;
+      margin-bottom: 20vw;
   }
