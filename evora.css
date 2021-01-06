@@ -310,13 +310,13 @@ p {
         height: 8.75vh;
     }
     .logo-name {
-        width: 40vw;
+        width: 38vw;
         height: auto;
         margin-left: 1vw;
     }
 
     .logo-designer {
-        width: 42vw;
+        width: 40vw;
         height: auto;
         margin-top: 4vh;
     }
@@ -381,8 +381,17 @@ p {
         margin-top: 20vh;
     }
 
+    .container {
+        margin-top: 10vw;
+    margin-bottom: 30vw;
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    }
+
     #button-rounded {
-        width: 3vw;
+        width: 2vw;
         height: auto;
     }
 }
