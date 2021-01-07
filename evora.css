@@ -390,7 +390,7 @@ p {
     }
 
     .d-icon img:hover {
-        box-shadow: 10px 10px 5px grey;
+        opacity: 0.8;
     }
 
     #images-two {
