@@ -309,6 +309,7 @@ p {
         width: 100vw;
         height: 8.75vh;
     }
+
     .logo-name {
         width: 38vw;
         height: auto;
@@ -364,7 +365,7 @@ p {
         display: flex;
     }
 
-    .d-icon img{
+    .d-icon img {
         width: 4vw;
         height: auto;
         margin-top: 2vh;
@@ -383,15 +384,80 @@ p {
 
     .container {
         margin-top: 10vw;
-    margin-bottom: 30vw;
-    width: 100vw;
-    height: auto;
-    display: flex;
-    justify-content: center;
+        margin-bottom: 30vw;
+        width: 100vw;
+        height: auto;
+        display: flex;
+        justify-content: center;
     }
 
     #button-rounded {
         width: 2vw;
         height: auto;
+    }
+
+    #basel {
+        visibility: visible;
+    }
+
+    .final-project {
+        width: 30vw;
+        height: auto;
+        margin-bottom: 5vh;
+        margin-right: 5vw;
+    }
+
+    .final-project:hover {
+        width: 30.5vw;
+        height: auto;
+    }
+
+    .container-two {
+        margin-top: 20vw;
+        width: 100vw;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: initial;
+    }
+
+    .container-two-tx {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .about-text {
+        width: 40vw;
+        height: auto;
+        font-size: 0.5vw;
+        margin-top: 4vh;
+        margin-left: 10vw;
+        margin-bottom: 10vh;
+    }
+
+    h5 {
+        line-height: 0vh;
+        font-size: 2vw;
+        font-weight: 500;
+        color: #126D9B;
+    }
+    
+    h1 {
+        line-height: 0vh;
+        font-size: 4vw;
+        margin-top: 3vw;
+    }
+    
+    p {
+        margin-top: 5vw;
+        line-height: 4vh;
+        font-size: 1.8vw;
+        font-weight: 349;
+    }
+
+    .designer {
+        width: 30vw;
+        transform: translate(58vw, -54vh);
     }
 }
